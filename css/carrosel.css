@@ -1,0 +1,31 @@
+.carrosel__titulo {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: center;
+
+    padding: 1rem 0 0.5rem 0;
+
+    background-color: var(--cor-branca);
+    color: var(--cor-laranja);
+}
+
+.swiper {
+    width: 100%;
+
+
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    margin: 0.5rem;
+    position: initial;
+}
