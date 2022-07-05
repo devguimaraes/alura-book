@@ -1,6 +1,6 @@
 .rodape {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     padding: 1rem;
 }
@@ -29,6 +29,10 @@
     .online__titulo,
     .educacao__titulo {
         align-items: center;
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
     }
 
     .comunidade__lista,
