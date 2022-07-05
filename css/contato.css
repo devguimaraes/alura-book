@@ -74,3 +74,9 @@ hr {
         flex-direction: column;
     }
 }
+
+@media (min-width:1728px) {
+    .contato {
+        width: 50%;
+    }
+}

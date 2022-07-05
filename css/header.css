@@ -85,7 +85,11 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
 
+/* Responsivo */
 
 @media screen and (min-width: 1024px) {
     .cabecalho {
@@ -143,5 +147,35 @@
 
     .container__imagem--favoritos {
         display: none;
+    }
+}
+
+
+@media screen and (min-width:1728px) {
+    .container__texto {
+        display: block;
+
+        font-size: 1rem;
+        font-weight: 400;
+
+        color: var(--cor-preta);
+
+    }
+
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+
+        color: var(--cor-preta);
+        text-decoration: none;
+    }
+
+    .opcoes {
+        margin-right: auto;
     }
 }

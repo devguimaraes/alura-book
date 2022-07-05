@@ -60,3 +60,9 @@
         height: 84px;
     }
 }
+
+@media (min-width:1728px) {
+    .topicos__lista {
+        max-width: 743px;
+    }
+}

@@ -58,3 +58,14 @@
         padding-right: 0.5rem;
     }
 }
+
+@media (min-width:1728px) {
+
+    .comunidade__lista,
+    .online__lista,
+    .rodape__lista {
+        border-left: 1px solid gray;
+        padding-left: 0.5rem;
+    }
+
+}
