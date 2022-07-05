@@ -49,3 +49,14 @@
 .topicos__link {
     text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) {
+    .topicos__titulo {
+        font-size: 1.5rem;
+    }
+
+    .topicos__item {
+        width: 164px;
+        height: 84px;
+    }
+}

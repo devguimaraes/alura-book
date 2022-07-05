@@ -5,6 +5,7 @@
 @import url('./cartao.css');
 @import url('./topicos.css');
 @import url('./contato.css');
+@import url('./rodape.css');
 
 :root {
     --cor-de-fundo-azul: #002F52;
@@ -23,14 +24,3 @@ body {
 }
 
 /* Passar para outro arquivos */
-
-.rodape {
-
-    padding: 1rem;
-}
-
-.rodape__titulo {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-}

@@ -62,11 +62,11 @@
             <div class="swiper-pagination"></div>
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide"><img src="./img/ApacheKafka.png" alt="Livro sobre Apache" srcset=""></div>
-                <div class="swiper-slide"><img src="./img/Liderança.png" alt="Livro sobre Liderança" srcset=""></div>
-                <div class="swiper-slide"><img src="./img/Javascript.png" alt="Guia do Javascript" srcset=""></div>
-                <div class="swiper-slide"><img src="./img/Guia Front-end.png" alt="Gui do Front-End" srcset=""></div>
-                <div class="swiper-slide"><img src="./img/Portugol.png" alt="Lógica de Programação" srcset=""></div>
+                <div class="swiper-slide"><img src="./img/ApacheKafka.svg" alt="Livro sobre Apache" srcset=""></div>
+                <div class="swiper-slide"><img src="./img/Liderança.svg" alt="Livro sobre Liderança" srcset=""></div>
+                <div class="swiper-slide"><img src="./img/Javascript.svg" alt="Guia do Javascript" srcset=""></div>
+                <div class="swiper-slide"><img src="./img/Guia Front-end.svg" alt="Gui do Front-End" srcset=""></div>
+                <div class="swiper-slide"><img src="./img/Portugol.svg" alt="Lógica de Programação" srcset=""></div>
             </div>
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
@@ -140,13 +140,66 @@
         </ul>
     </section>
     <section class="contato">
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="contato__informacoes">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+
+        </div>
         <input type="email" class="contato__input" placeholder="Cadastre seu e-mail">
 
     </section>
+    <hr>
     <footer class="rodape">
-        <h2 class="rodape__titulo">Grupo Alura</h2>
+        <div class="rodape__titulo">
+            <h2 class="rodape__titulo">Grupo Alura</h2>
+        </div>
+        <div class="rodape__educacao">
+            <ul class="rodape__lista">
+                <legend class="educacao__titulo">Educação</legend>
+                <li class="rodape__item"><img class='rodade__img' src="./img/Caelum.png" alt=""> Caleum</li>
+                <li class="rodape__item"> <img class='rodade__img' src="./img/CasaDoCodigo.png" alt="" srcset=""> Casa
+                    do Código</li>
+            </ul>
+
+        </div>
+        <div class="rodape__online">
+            <ul class="online__lista">
+                <legend class="online__titulo">Educação Online</legend>
+                <li class="online__item"> <img src="./img/Alura.png" class="online__img" alt="" srcset=""> Alura</li>
+                <li class="online__item"> <img src="./img/AluraEmpresas.png" class="online__img" alt="" srcset=""> Alura
+                    para Empresas</li>
+                <li class="online__item"><img src="./img/AluraLatam.png" class="online__img" alt="" srcset="">Alura
+                    LATAM</li>
+                <li class="online__item"><img src="./img/AluraStart.png" class="online__img" alt="" srcset="">Alura
+                    Start</li>
+                <li class="online__item"><img src="./img/MusicDot.png" class="online__img" alt="" srcset="">Music Dot
+                </li>
+                <li class="online__item"><img src="./img/AluraLingua.png" class="online__img" alt="" srcset="">Alura
+                    Lingua</li>
+                <li class="online__item"><img src="./img/PM3.png" class="online__img" alt="" srcset="">PM3</li>
+            </ul>
+
+        </div>
+        <div class="rodape__comunidade">
+            <legend class="comunidade__titulo">Comunidade</legend>
+            <ul class="comunidade__lista">
+                <li class="comunidade__item"><img src="./img/HipstersTech.png" class="comunidade__img" alt=""
+                        srcset="">Hipsters ponto Tech</li>
+                <li class="comunidade__item"><img src="./img/Scuba.png" class="comunidade__img" alt="" srcset="">Scuba
+                    Dev</li>
+                <li class="comunidade__item"><img src="./img/Layers.png" class="comunidade__img" alt="" srcset="">Layers
+                    ponto Tech</li>
+                <li class="comunidade__item"><img src="./img/LikeABoss.png" class="comunidade__img" alt=""
+                        srcset="">Like a Boss</li>
+                <li class="comunidade__item"><img src="./img/CarreiraSemFronteira.png" class="comunidade__img" alt=""
+                        srcset="">Carreira sem
+                    Fronteira
+                </li>
+                <li class="comunidade__item"><img src="./img/HipstersJobs.png" class="comunidade__img" alt=""
+                        srcset="">Hipsters ponto Jobs</li>
+                <li class="comunidade__item"><img src="./img/GUJ.png" class="comunidade__img" alt="" srcset="">GUJ</li>
+            </ul>
+        </div>
     </footer>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script>
@@ -156,6 +209,10 @@
             pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
             },
         });
     </script>

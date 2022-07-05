@@ -121,6 +121,19 @@
         text-transform: uppercase;
     }
 
+    .opcoes__item:active {
+        background: var(--cor-azul);
+        color: var(--cor-branca);
+    }
+
+    .opcoes__item:focus {
+        background: var(--cor-azul);
+        color: var(--cor-branca);
+    }
+
+
+
+
     .opcoes__link {
         font-size: 1rem;
         font-weight: 400;

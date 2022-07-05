@@ -7,8 +7,10 @@
     padding: 1rem;
 
     background: var(--cor-branca);
+}
 
-    border-bottom: 1px solid black;
+hr {
+    color: black;
 }
 
 .contato__texto,
@@ -49,4 +51,25 @@
     font-size: 0.987rem;
     line-height: 1.5rem;
     color: var(--cor-azul);
+}
+
+@media screen and (min-width:1024px) {
+
+    .contato {
+        flex-direction: row;
+        align-items: center;
+        text-align: -webkit-left;
+
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .contato__input {
+        width: 50%;
+    }
+
+    .contato__informacoes {
+        display: flex;
+        flex-direction: column;
+    }
 }
