@@ -11,8 +11,9 @@
 
 Neste projeto além de usar os conceitos de Mobile first, foi usado as seguintes tecnologias:
 
-- Padrão BEM de CSS
+- HTML5
 - Flebox CSS
+- Padrão BEM de CSS
 - Estrutura organizada de arquivos e pastas, facilitando futuras manuntenções
 - Uso da lib Swiper.js 
 
